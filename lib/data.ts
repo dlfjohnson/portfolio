@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import careSummary from "@/public/caresummary.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import benepassCardImg from "@/public/benepass-card.png";
 
 export const links = [
   {
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Rollins College",
     location: "Winter Park, FL",
     description:
-      "I graduated with a bachelors in International Business and a minor in German.",
+      "I graduated with a bachelors in International Business. I also received a minor in German and was Vice President of the Club Tennis team. In my junior year, I enrolled in a Introductory to Programming course and started building websites.",
     icon: React.createElement(LuGraduationCap),
     date: "2014",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Wyncode Academy",
     location: "Miami, FL",
     description:
-      "I completed a 9 week Full Stack Web Immersive bootcamp.",
+      "I completed a 9 week Full Stack Web Immersive bootcamp. For my final project, I developed a web application using Ruby on Rails, HTML, CSS, Javascript, PostgreSQL, and Twitter’s API where users can find the most relevant hashtags to their topic of interest.",
     icon: React.createElement(LuGraduationCap),
     date: "2016",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Associate Software Engineer",
     location: "Miami, FL",
     description:
-      "I worked as a frontend software engineer for 6+ years developing large-scale web applications to enable physicians and clinical staff to monitor and treat their patients more effectively.",
+      "I worked as a frontend software engineer for 6+ years developing large-scale web applications for a technology platform designed for value-based care. The applications enable physicians and clinical staff to monitor and treat their patients more effectively resulting in significant cost savings, increased user satisfaction, and improved patient health outcomes.",
     icon: React.createElement(CgWorkAlt),
     date: "2017 - 2023",
   }
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CarePro",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "One of the 9 highly responsive and data-intensive web applications I developed at ChenMed for physicians and clinical staff. Users can view their patient's medical records, collect new information, and conduct screenings during the patient visit.",
+    tags: ["React", "Redux", "JavaScript", "Material UI", "HTML", "CSS"],
+    imageUrl: careSummary,
   },
   {
-    title: "rmtDev",
+    title: "Benepass Card",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "React component that hides sensitive credit card information. It utilizes advanced Tailwind CSS and relative units of size such as rem to achieve optimal scalibility and responsiveness.",
+    tags: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
+    imageUrl: benepassCardImg,
   },
   {
-    title: "Word Analytics",
+    title: "Auto Marketplace (Coming 2024)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Innovative web platform designed to streamline the process of buying and selling cars. A user-friendly website providing a secure and efficient marketplace where users can list their cars for sale, browse available vehicles, and make transactions with confidence.",
+    tags: ["React", "Next", "JavaScript", "HTML", "CSS", "Tailwind", "Node", "EXPRESS", "MySQL"],
+    imageUrl: null,
   },
 ] as const;
 
@@ -90,23 +90,23 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "React Natiave",
+  "React Native",
   "Redux",
   "Next.js",
-  "Angular.js",
-  "Node.js",
+  "Angular",
+  "Node",
   "Express",
   "Jest",
   "Enzyme",
   "React Testing Library",
   "Storybook",
   "Tailwind",
+  "Framer Motion",
   "Material",
   "KendoReact",
   "MongoDB",
   "MySQL",
   "PostgreSQL",
-  "Framer Motion",
   "Git",
   "Github Flow",
   "Git Flow",
@@ -117,4 +117,6 @@ export const skillsData = [
   "Figma",
   "Google Analytics",
   "Launch Darkly",
+  "Vercel",
+  "AWS",
 ] as const;

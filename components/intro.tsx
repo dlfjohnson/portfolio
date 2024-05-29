@@ -56,10 +56,10 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
       >
         <span className="font-bold">Hello, I'm Devon.</span> I'm a{" "}
-        <span className="font-bold">front-end developer</span> with{" "}
+        <span className="font-bold">Frontend Software Engineer</span> with{" "}
         <span className="font-bold">6 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building sites and apps. My focus is{" "}
+        <span className="underline">React</span>.
       </motion.h1>
 
       <motion.div
@@ -98,7 +98,8 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://github.com"
+          href="https://www.github.com/dlfjohnson"
+          target="_blank"
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
