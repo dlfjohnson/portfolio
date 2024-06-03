@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Wyncode Academy",
     location: "Miami, FL",
     description:
-      "I completed a 9 week Full Stack Web Immersive bootcamp. For my final project, I developed a web application using Ruby on Rails, HTML, CSS, Javascript, PostgreSQL, and Twitter’s API where users can find the most relevant hashtags to their topic of interest.",
+      "I studied full stack web development. For my final project, I developed a web application using Ruby on Rails, HTML, CSS, Javascript, PostgreSQL, and Twitter’s API where users can find the most relevant hashtags to their topic of interest.",
     icon: React.createElement(LuGraduationCap),
     date: "2016",
   },

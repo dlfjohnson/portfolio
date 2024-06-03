@@ -29,7 +29,7 @@ export default function About() {
         learn new technologies and explore future trends including Progressive Web Apps, Cybersecurity, and AI-Driven Development.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, you can find me on the golf course, tennis court, or playing with my dog. I also enjoy traveling with my family, experiencing different cultures, and learning new things. I'm currently learning about{" "}real estate and investing<span className="font-medium"></span>.
+        Outside work, I enjoy listening to or playing music, being outside on the tennis court, and playing with my pup, Kahlúa. I also enjoy traveling with my family, experiencing different cultures, and learning new things. I'm currently learning about real estate and investing.
       </p>
     </motion.section>
   )
