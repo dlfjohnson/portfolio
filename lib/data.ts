@@ -64,22 +64,22 @@ export const projectsData = [
   {
     title: "CarePro",
     description:
-      "One of the 9 highly responsive and data-intensive web applications I developed at ChenMed for physicians and clinical staff. Users can view their patient's medical records, collect new information, and conduct screenings during the patient visit.",
-    tags: ["React", "Redux", "JavaScript", "Material UI", "HTML", "CSS"],
+      "1 of the 9 highly responsive, enterprise level applications I developed at ChenMed for over 120 clinical centers nationwide. Physicians can view their patient's medical records, collect new information, and conduct screenings during a visit.",
+    tags: ["React", "Redux", "JavaScript", "MySQL", "Material UI", "HTML", "CSS", "Jest", "Enzyme", "React Testing Library", "Storybook", "Google Analytics", "Launch Darkly", "AWS"],
     imageUrl: careSummary,
   },
   {
     title: "Benepass Card",
     description:
       "React component that hides sensitive credit card information. It utilizes advanced Tailwind CSS and relative units of size such as rem to achieve optimal scalibility and responsiveness.",
-    tags: ["React", "JavaScript", "HTML", "CSS", "Tailwind"],
+    tags: ["React", "JavaScript", "HTML", "CSS", "Tailwind", "Vercel"],
     imageUrl: benepassCardImg,
   },
   {
     title: "Auto Marketplace (Coming 2024)",
     description:
       "Innovative web platform designed to streamline the process of buying and selling cars. A user-friendly website providing a secure and efficient marketplace where users can list their cars for sale, browse available vehicles, and make transactions with confidence.",
-    tags: ["React", "Next", "JavaScript", "HTML", "CSS", "Tailwind", "Node", "EXPRESS", "MySQL"],
+    tags: ["React", "Next", "JavaScript", "HTML", "CSS", "Tailwind", "Node", "EXPRESS", "MySQL", "Vercel"],
     imageUrl: null,
   },
 ] as const;
