@@ -68,14 +68,14 @@ export const projectsData = [
   {
     title: "Local Lilly",
     description:
-      "A winning mockup I created for a web design contest using HTML, CSS, Bootstrap, and Adobe Illustrator. The client provided a name and a concept. She envisioned a platform that will find local incluencers that can help you promote your business.",
+      "A winning mockup I created for a web design contest using Adobe Illustrator, Bootstrap, HTML, and CSS. The client provided a name and a concept description. She envisioned a platform that would find local influencers to promote your business. I designed the logo, color scheme, and layout in addition to developing the custom HTML template. The client was very pleased with the design and decided to use it for her business.",
     tags: ["Adobe Illustrator", "Bootstrap", "HTML", "CSS"],
     imageUrls: [localLillyImg, localLilly2Img],
   },
   {
     title: "Hustle",
     description:
-      "A Video Production Agency website I built for a client using Ruby, Ruby on Rails, JavaScript, Bootstrap, HTML5 and CSS3. It showcases the agency's latest productions.",
+      "A Video Production Agency website I built for a client using Ruby, Ruby on Rails, JavaScript, Bootstrap, HTML and CSS. It showcases the agency's latest productions with a custom video player and modern design elements. The client wanted a website that would help them stand out in the industry and attract new clients.",
     tags: ["Ruby", "JavaScript", "Ruby On Rails", "Bootstrap", "HTML", "CSS"],
     imageUrls: [hustleImg, hustle2Img],
   },
