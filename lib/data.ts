@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "CarePro",
     description:
-      "1 of the 9 highly responsive, enterprise level applications I developed at ChenMed. It served as a full-featured dashboard for over 120 clinical centers nationwide. Users can check in patients, view patient medical records, collect patient vitals, conduct screenings, initiate telehealth visits, and more.",
+      "1 of the 9 highly responsive, enterprise level applications I developed at ChenMed. It serves as a full-featured dashboard for over 120 clinical centers nationwide. Users can check in patients, view patient medical records, collect patient vitals, conduct screenings, initiate telehealth visits, and more.",
     tags: ["React", "Redux", "JavaScript", "MySQL", "Material UI", "HTML", "CSS", "Jest", "Enzyme", "React Testing Library", "Storybook", "Google Analytics", "Launch Darkly", "AWS"],
     imageUrls: [careSummary],
   },
