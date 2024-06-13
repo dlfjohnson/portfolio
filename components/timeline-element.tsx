@@ -36,13 +36,13 @@ export default function TimelineElement(item : TimelineElementProps) {
       intersectionObserverProps={{threshold: 0.5}}
     >
       <div className="flex items-baseline gap-1.5">
-        <span ref={ref} className="font-semibold capitalize text-base">{item.title}</span>
-        <span className="text-xs text-gray-500">{item.location}</span>
+        <span ref={ref} className="font-semibold capitalize text-lg">{item.title}</span>
+        <span className="text-sm text-gray-500">{item.location}</span>
       </div>
       {item.role &&
-        <h5 className="capitalize italic text-sm">{item.role}</h5>
+        <h5 className="capitalize italic text-base">{item.role}</h5>
       }
-      <p className="!mt-1.5 !font-normal text-xs text-gray-700 dark:text-white/75">{item.description}</p>
+      <p className="!mt-1.5 !font-normal text-gray-700 dark:text-white/75">{item.description}</p>
     </VerticalTimelineElement>
   )
 }

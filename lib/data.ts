@@ -68,7 +68,7 @@ export const projectsData = [
   {
     title: "Local Lilly",
     description:
-      "A winning mockup I created for a web design contest using Adobe Illustrator, Bootstrap, HTML, and CSS. The client provided a name and a concept description. She envisioned a platform that would find local influencers to promote your business. I designed the logo, color scheme, and layout in addition to developing the custom HTML template. The client was very pleased with the design and decided to use it for her business.",
+      "A winning mockup I created for a web design contest using Adobe Illustrator, Bootstrap, HTML, and CSS. The client provided a name and a concept. She envisioned a platform that would find local influencers to promote your business. I designed the logo, color scheme, and layout in addition to developing the custom HTML template. The client was very pleased with the design and decided to use it for her business.",
     tags: ["Adobe Illustrator", "Bootstrap", "HTML", "CSS"],
     imageUrls: [localLillyImg, localLilly2Img],
   },
@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "CarePro",
     description:
-      "1 of the 9 highly responsive, enterprise level applications I developed at ChenMed for over 120 clinical centers nationwide. Physicians can view their patient's medical records, collect new information, and conduct screenings during a visit.",
+      "1 of the 9 highly responsive, enterprise level applications I developed at ChenMed. It served as a full-featured dashboard for over 120 clinical centers nationwide. Users can check in patients, view patient medical records, collect patient vitals, conduct screenings, initiate telehealth visits, and more.",
     tags: ["React", "Redux", "JavaScript", "MySQL", "Material UI", "HTML", "CSS", "Jest", "Enzyme", "React Testing Library", "Storybook", "Google Analytics", "Launch Darkly", "AWS"],
     imageUrls: [careSummary],
   },
