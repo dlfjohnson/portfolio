@@ -63,7 +63,7 @@ export default function Project({
       <div
         className={clsx({
           'pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]': true,
-          'sm:!ml-0 sm:max-w-[100%] sm:!pl-0': !imageUrls,
+          'sm:!ml-0 sm:!max-w-[100%] sm:!pl-0': !imageUrls,
         })}
       >
         <h3 className="text-2xl font-semibold">{title}</h3>
