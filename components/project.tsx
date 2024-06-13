@@ -57,7 +57,7 @@ export default function Project({
       <section
         className={clsx({
           'relative bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 sm:h-[38rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white': true,
-          'sm:h-[20rem]': !imageUrls,
+          'sm:!h-[20rem]': !imageUrls,
         })}
       >
       <div
